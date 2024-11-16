@@ -1,0 +1,80 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS system files
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Spotlight files
+.DS_Store
+.metadata_never_index
+
+# macOS Finder attributes
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# macOS resource fork
+.AppleDouble
+.DS_Store
+
+# macOS local temporary files
+.TemporaryItems
+.VolumeIcon.icns
+.fseventsd
+.com.apple.timemachine.donotpresent
+.com.apple.timemachine.supported
+
+# Xcode specific files
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/xcdebugger
+!*.xcodeproj/xcshareddata/xcschemes
+
+# Xcode automatically generated files
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea
+*.hmap
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode build files
+build/
+Build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods specific files
+Pods/
+podfile.lock
+podfile
+
+# Carthage specific files
+Carthage/Build/
+Carthage/Checkouts
+
+# Swift Package Manager
+.build/
+.Package.resolved
+
+# Fastlane specific files
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Other exclusions
+*.mode1v3
+*.mode2v3
+*.perspectivev3
