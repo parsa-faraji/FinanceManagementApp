@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C1DF27F62CE84888000BBA23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF27F52CE84888000BBA23 /* main.cpp */; };
+		C1DF27FE2CE85408000BBA23 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF27FC2CE85408000BBA23 /* Transaction.cpp */; };
+		C1DF28042CE85781000BBA23 /* Income.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF28022CE85781000BBA23 /* Income.cpp */; };
+		C1DF28082CE85855000BBA23 /* Tax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF28062CE85855000BBA23 /* Tax.cpp */; };
+		C1DF280A2CE95BBF000BBA23 /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF28092CE95BBF000BBA23 /* Date.cpp */; };
+		C1DF280C2CE95E70000BBA23 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF280B2CE95E70000BBA23 /* Time.cpp */; };
+		C1DF280F2CE960A8000BBA23 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF280E2CE960A8000BBA23 /* Account.cpp */; };
+		C1DF28122CE9610F000BBA23 /* Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DF28102CE9610F000BBA23 /* Display.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		C1DF27F22CE84888000BBA23 /* FinanceManagementApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinanceManagementApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DF27F52CE84888000BBA23 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1DF27FC2CE85408000BBA23 /* Transaction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		C1DF27FD2CE85408000BBA23 /* Transaction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Transaction.hpp; sourceTree = "<group>"; };
+		C1DF27FF2CE85417000BBA23 /* Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		C1DF28012CE855A5000BBA23 /* Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		C1DF28022CE85781000BBA23 /* Income.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Income.cpp; sourceTree = "<group>"; };
+		C1DF28032CE85781000BBA23 /* Income.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Income.hpp; sourceTree = "<group>"; };
+		C1DF28052CE857D0000BBA23 /* Time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		C1DF28062CE85855000BBA23 /* Tax.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tax.cpp; sourceTree = "<group>"; };
+		C1DF28072CE85855000BBA23 /* Tax.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tax.hpp; sourceTree = "<group>"; };
+		C1DF28092CE95BBF000BBA23 /* Date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
+		C1DF280B2CE95E70000BBA23 /* Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		C1DF280E2CE960A8000BBA23 /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		C1DF28102CE9610F000BBA23 /* Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Display.cpp; sourceTree = "<group>"; };
+		C1DF28112CE9610F000BBA23 /* Display.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Display.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				C1DF27F52CE84888000BBA23 /* main.cpp */,
+				C1DF28102CE9610F000BBA23 /* Display.cpp */,
+				C1DF28112CE9610F000BBA23 /* Display.hpp */,
+				C1DF27FC2CE85408000BBA23 /* Transaction.cpp */,
+				C1DF27FD2CE85408000BBA23 /* Transaction.hpp */,
+				C1DF27FF2CE85417000BBA23 /* Date.h */,
+				C1DF28092CE95BBF000BBA23 /* Date.cpp */,
+				C1DF28012CE855A5000BBA23 /* Account.h */,
+				C1DF28022CE85781000BBA23 /* Income.cpp */,
+				C1DF28032CE85781000BBA23 /* Income.hpp */,
+				C1DF28052CE857D0000BBA23 /* Time.h */,
+				C1DF28062CE85855000BBA23 /* Tax.cpp */,
+				C1DF28072CE85855000BBA23 /* Tax.hpp */,
+				C1DF280B2CE95E70000BBA23 /* Time.cpp */,
+				C1DF280E2CE960A8000BBA23 /* Account.cpp */,
 			);
 			path = FinanceManagementApp;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DF280C2CE95E70000BBA23 /* Time.cpp in Sources */,
+				C1DF28042CE85781000BBA23 /* Income.cpp in Sources */,
+				C1DF28122CE9610F000BBA23 /* Display.cpp in Sources */,
+				C1DF28082CE85855000BBA23 /* Tax.cpp in Sources */,
+				C1DF280F2CE960A8000BBA23 /* Account.cpp in Sources */,
+				C1DF27FE2CE85408000BBA23 /* Transaction.cpp in Sources */,
 				C1DF27F62CE84888000BBA23 /* main.cpp in Sources */,
+				C1DF280A2CE95BBF000BBA23 /* Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
