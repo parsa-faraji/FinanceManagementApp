@@ -9,7 +9,14 @@
 #include "Account.h"
 
 // opeator overload
+bool operator==(const Account& account1, const Account& time2) {
+    return (time1.hour == time2.hour) && (time1.minute == time2.minute) &&
+    (time1.second == time2.second);
+}
 
+ostream& operator<<(ostream& stream, const Time& time) {
+    return stream << time.hour << ":" << time.minute << ":" << time.second;
+}
 
 void setAccountNumber(const Account& account, const auto& accountNumber) {
     account.accountNumber = accountNumber;
